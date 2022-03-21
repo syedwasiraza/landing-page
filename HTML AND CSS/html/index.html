@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CatPhotoApp</title>
+    
+  </head>
+  <link rel="stylesheet" href="practicecss/styles.css">
+  <body>
+    <main>
+    
+      <h1>Cat Photo App</h1>
+      <h2>This app will display a cat photo for you to <a href="#">click</a> on.</h2>
+      <!--TODO: Add link to cat photos-->
+      <p>
+        Click Here to veiw more
+        <a href="https://catphotos.com" target="_blank">Cat Photos</a>
+      </p>
+      <div id= "dupimg">
+      <a href="#"
+      ><img class="catphoto" id="catphotoblackandwhite" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=843&q=80"
+      alt="a cute black and white cat" >
+    </a>
+    </div>
+      <h3>Cat Lists</h3>
+      <div class="lists">
+        <p>Things Cats <strong>Love</strong>:</p>
+        <ul>
+          <li>cat Nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <img class="catphoto" src="lasagna.jpg" alt="a lasagna" width="200" height="200" />
+
+        <p>things Cats <strong> Hate</strong> :</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+
+      <div class="forms and inputs">
+        <form action="/submit-cat-photo"></form>
+
+        <label id= "for-indoor" for="indoor"
+          ><input id="indoor" type="radio" name="indoor-outdoor" checked />
+          Indoor</label
+        >
+        <br />
+
+        <label id="for-outdoor" for="outdoor"
+          ><input id="outdoor" type="radio" name="indoor-outdoor" />
+          Outdoor</label>
+
+        <br />
+
+        <div class="type-of-cats">
+
+          <label for="Loving">
+            <input type="checkbox" name="Personality Test" id="Loving" checked />
+            Loving
+          </label>
+          <br />
+          
+          <label for="lazy">
+            <input type="checkbox" name="Personality Test" id="lazy" /> Lazy
+          </label>
+          <br />
+          
+          <label for="energetic">
+            <input type="checkbox" name="Personality Test" id="energetic" />
+            energetic
+          </label>
+          <br />
+        </div>
+          
+          <input type="text" placeholder="cat photo url" required /> <br />
+          
+        <button type="submit">Button</button>
+      </div>
+    </main>
+    <footer>
+      <p>
+        <small>
+          &copy; No Copyright 2022
+          <a href="https://catphoto.com" target="_blank">Cat Photo App</a>
+        </small>
+      </p>
+    </footer>
+
+
+    <div class="container">
+    <div class="d1">1</div>
+    <div class="d2">2</div>
+    <div class="d3">3</div>
+    <div class="d4">4</div>
+    <div class="d5">5</div>
+
+    
+    </div>
+  </body>
+</html>
